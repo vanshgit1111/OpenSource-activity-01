@@ -1,0 +1,98 @@
+/* --- Global Styles & Issues --- */
+body {
+    /* Issue: Change the default font */
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    /* Issue: Change the page's background color */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    /* Issues: Add padding, a border, rounded corners, a box-shadow, and a max-width */
+}
+
+a {
+    /* Issue: Remove the underline */
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+/* --- Header & Navigation Issues --- */
+header {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    /* Issue: Remove bullet points and default padding */
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    /* Issue: Make this a horizontal menu (e.g., using flexbox) */
+}
+
+nav ul li a {
+    color: white;
+    /* Issue: Add padding for easier clicking */
+}
+
+/* Issue: Add a style for the active navigation link */
+.active {
+    /* (e.g., text-decoration: underline; font-weight: bold;) */
+}
+
+
+/* --- Index Page Issues --- */
+.profile-pic {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    /* Issue: Make the profile picture a circle */
+    border-radius: 0;
+}
+
+
+/* --- Projects Page Issues --- */
+.project-gallery {
+    /* Issue: Style this as a responsive grid */
+}
+
+.project-card {
+    /* Issue: Style the project cards (border, padding, etc.) */
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+
+/* --- Contact Page Issues --- */
+form {
+    /* Issue: Add some spacing between form elements */
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 90%;
+    /* Issue: Style these inputs to be more user-friendly */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    /* Issue: Style this button to be more prominent */
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* --- Responsive Design Issues --- */
+/* Issue: Add media queries to make the site usable on mobile devices */
